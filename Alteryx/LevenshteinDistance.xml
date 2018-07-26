@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormulaAddIn>
+  <Function>
+    <Name>LevenshteinDistance</Name>
+    <NumParams variable="false">2</NumParams>
+    <Category>String</Category>
+    <InsertText>LevenshteinDistance(String,String)</InsertText>
+    <Description>Returns the number of edit changes to convert first argument to second.</Description>
+    <Dll>
+      <Name>StringSim1</Name>
+      <EntryPoint>LevenshteinDistance</EntryPoint>
+    </Dll>
+  </Function>
+</FormulaAddIn>
